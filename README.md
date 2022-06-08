@@ -1,6 +1,6 @@
 # Extended ERC721 NFT contract sample
 
-This repository holds an extender Solidity NFT smart contract according to the ERC721 standard.
+This repository holds an extended Solidity NFT smart contract according to the ERC721 standard.
 The contract should help beginners to aquire knowledge in ERC721 development.
 
 This repository holds two contracts:
@@ -29,7 +29,7 @@ The following libraries are used in the contract:
 - *IERC2981.sol by [Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/interfaces)*
 
 # Included functions
-The contract holds the following important functions, a long side the basic ERC721 functions, that are not listed here.
+The contract holds the following important functions, a long side with lesser important and the basic ERC721 functions, that are not listed here.
 
 **mintNFT:**
 Mints the inputed amount (limited by maxmintAmount) to the msg.sender.
